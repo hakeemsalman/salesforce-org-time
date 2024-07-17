@@ -10,7 +10,7 @@
   },
   "content_scripts": [
     {
-      "js": ["./script.js"],
+      "js": ["./script.min.js"],
       "css":[
         "./button.css"
       ],
@@ -52,7 +52,7 @@
     "https://*.force.com.mcas.ms/*"
   ],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "./background.min.js"
   },
   "permissions": [
     "cookies"
