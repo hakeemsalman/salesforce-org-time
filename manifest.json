@@ -11,9 +11,6 @@
   "content_scripts": [
     {
       "js": ["./script.min.js"],
-      "css":[
-        "./button.css"
-      ],
       "matches": [
         "https://*.salesforce.com/*",
         "https://*.salesforce-setup.com/*",

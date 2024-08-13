@@ -22,7 +22,7 @@ function createTime() {
     orgTimeSlot.style.zIndex = '1000';
     orgTimeSlot.style.position = 'fixed';
     orgTimeSlot.style.top = '2rem';
-    orgTimeSlot.style.right = '-11rem';
+    orgTimeSlot.style.right = '-21rem';
     orgTimeSlot.style.transition = 'right 1s ease-in-out';
 
     // Handle hover effect
@@ -31,11 +31,11 @@ function createTime() {
     });
 
     orgTimeSlot.addEventListener('mouseout', () => {
-      orgTimeSlot.style.right = '-11rem';
+      orgTimeSlot.style.right = '-21rem';
     });
 
     setInterval(async  () => {
-      orgTimeSlot.innerHTML = `<h5>${await getTime()}</h5>`; // Display the localized date and time
+      orgTimeSlot.innerHTML = `<span>${orgTime}&nbsp;</span><span>${await getTime()}</span>`; // Display the localized date and time
     }, 1000);
     bd.appendChild(orgTimeSlot);
   }
