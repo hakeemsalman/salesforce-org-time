@@ -27,7 +27,7 @@ function createTime() {
 
     // Handle hover effect
     orgTimeSlot.addEventListener('mouseover', () => {
-      orgTimeSlot.style.right = '1rem';
+      orgTimeSlot.style.right = '0rem';
     });
 
     orgTimeSlot.addEventListener('mouseout', () => {
