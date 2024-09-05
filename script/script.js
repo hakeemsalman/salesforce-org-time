@@ -22,7 +22,7 @@ function createTime() {
     orgTimeSlot.style.zIndex = '1000';
     orgTimeSlot.style.position = 'fixed';
     orgTimeSlot.style.top = '2rem';
-    orgTimeSlot.style.right = '-21rem';
+    orgTimeSlot.style.right = '-19rem';
     orgTimeSlot.style.transition = 'right 1s ease-in-out';
 
     // Handle hover effect
@@ -31,7 +31,7 @@ function createTime() {
     });
 
     orgTimeSlot.addEventListener('mouseout', () => {
-      orgTimeSlot.style.right = '-21rem';
+      orgTimeSlot.style.right = '-19rem';
     });
 
     setInterval(async  () => {
