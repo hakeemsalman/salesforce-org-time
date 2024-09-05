@@ -59,8 +59,6 @@ if (document.querySelector("body.sfdcBody, body.ApexCSIPage, #auraLoadingBox") |
       method: 'GET',
       headers: {
         "Authorization": 'Bearer ' + sid,
-        Accept: '*/*',
-        Host: 'peo.my.salesforce.com',
         'Accept-Encoding': 'gzip, deflate, br',
       }
     }).then( async response => {
