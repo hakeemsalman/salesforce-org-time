@@ -8,7 +8,7 @@ This Chrome extension ("Extension") is developed to enhance your experience whil
 ### Browser Data
 The Extension only collects and interacts with data from your browser when you are logged into the `salesforce.com` website. This includes:
 
-- **Read/Write Access**: The Extension may read data from and write data to the Salesforce website, but only to perform tasks directly related to its functionality.
+- **Read Access**: The Extension may read data from the Salesforce website, but only to perform tasks directly related to its functionality.
   
 No personal data, such as browsing history, login information, or other personal identifiers, will be collected or stored by this Extension outside the `salesforce.com` domain.
 
